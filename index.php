@@ -124,7 +124,7 @@
 						//2. SQL Statement
 						$sql = "SELECT car.*,model.name AS model_name,brand.name AS brand_name FROM car 
 								INNER JOIN model ON model.id=car.model_id INNER JOIN brand ON brand.id=model.brand_id ".$where;
-
+						
 						//get this limited sql for control number of pages
 						$limitedSql=$sql.$limit;
 						//3. Query Execute and Get the Result
@@ -182,6 +182,7 @@
 					</div>
 				</div>
 			</div>
+			
 			<div class="row">
 				<?php
 					include_once("includes/footer.php");

@@ -41,7 +41,10 @@
 						  </div>
 						  <button type="submit" class="btn btn-primary"> <?=$L["login"]?></button>
 						</form>
-					  </div> 
+					  </div>
+					  <div>
+				<h1>Hello World</h1>
+			</div> 
 					</div>
 				</div>
 			</div>
